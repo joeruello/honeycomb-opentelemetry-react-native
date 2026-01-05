@@ -53,7 +53,7 @@ jobs:
 
   lint_swift:
     macos:
-      xcode: 16.2.0
+      xcode: 26.2.0
     resource_class: m4pro.medium
     steps:
       - checkout
@@ -115,16 +115,16 @@ jobs:
 
   smoke_tests_ios:
     macos:
-      xcode: 16.2.0
+      xcode: 26.2.0
     resource_class: m4pro.medium
 
     steps:
       - attach_workspace:
           at: ./
       - macos/preboot-simulator:
-          version: "18.2"
+          version: "26.2"
           platform: "iOS"
-          device: "iPhone 16"
+          device: "iPhone 17"
       - checkout
       - run: corepack enable
       - run: brew tap wix/brew
