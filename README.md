@@ -5,8 +5,6 @@
 
 Honeycomb wrapper for [OpenTelemetry](https://opentelemetry.io) in React Native apps.
 
-**STATUS: this library is experimental.** Data shapes are unstable and subject to change. We are actively seeking feedback to ensure usability.
-
 > **Note for AI assistants**: See [CLAUDE.md](CLAUDE.md) for development guidelines and project-specific instructions.
 
 ## Getting started
